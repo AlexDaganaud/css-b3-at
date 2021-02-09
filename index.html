@@ -1,35 +1,132 @@
-<!doctype html>
-<html lang="fr">
-<head>
-  <meta charset="utf-8">
-  <title>CSS</title>
-  <link rel="stylesheet" href="style.css">
-  <link rel="stylesheet" href="reset.css">
-  <link rel="stylesheet" href="typographie.css">
-  <link rel="stylesheet" href="homepage.css">
-  <link rel="stylesheet" href="layout.css">
-</head>
-<body>
+<!DOCTYPE HTML>
 
-<header>
-  <nav>
-    <ul>
-      <li><a href="index.html">Home</a></li>
-      <li><a href="pages/evolution.html">News CSS</a></li>
-      <li><a href="pages/famouspeople.html">Famous people</a></li>
-      <li><a href="pages/profilcomplet.html">Profil complet</a></li>
-      <li><a href="pages/mentionslegales.html">Mentions légales</a></li>
-    </ul>
-  </nav>
-</header>
+<html>
+	<head>
+		<title>CSS B3</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+	</head>
+	<body>
 
-<div class="container">
-  <p>Veggies es bonus vobis, proinde vos postulo essum magis kohlrabi welsh onion daikon amaranth tatsoi tomatillo melon azuki bean garlic.</p>
+		<!-- Header -->
+			<header id="header">
+				<a href="index.html" class="logo"><strong>CSS</strong> by Daganaud Alex</a>
+				<nav>
+					<a href="#menu">Menu</a>
+				</nav>
+			</header>
 
-  <p>Gumbo beet greens corn soko endive gumbo gourd. Parsley shallot courgette tatsoi pea sprouts fava bean collard greens dandelion okra wakame tomato. Dandelion cucumber earthnut pea peanut soko zucchini.</p>
+		<!-- Nav -->
+			<nav id="menu">
+				<ul class="links">
+					<li><a href="index.html">Home</a></li>
+					<li><a href="rachelandrew.html">Rachel Andrew</a></li>
+					<li><a href="generic.html">Personnalités</a></li>
+					<li><a href="index.html">Evolution du CSS</a></li>
+					<li><a href="mentionslegales.html">Mentions légales</a></li>
+				</ul>
+			</nav>
 
-  <p>Turnip greens yarrow ricebean rutabaga endive cauliflower sea lettuce kohlrabi amaranth water spinach avocado daikon napa cabbage asparagus winter purslane kale. Celery potato scallion desert raisin horseradish spinach carrot soko.</p>
-</div>
-      
-</body>
+		<!-- Banner -->
+			<section id="banner">
+				<div class="inner">
+					<h1>Bienvenue sur le site du cours CSS de Alex Daganaud</h1>
+					<ul class="actions">
+						<li><a href="#one" class="button alt scrolly big">VOIR PLUS</a></li>
+					</ul>
+				</div>
+			</section>
+
+		<!-- One -->
+			<article id="one" class="post style1">
+				<div class="image">
+					<img src="images/pic15.jpg" alt="" data-position="75% center" />
+				</div>
+				<div class="content">
+					<div class="inner">
+						<header>
+							<h2><a href="generic.html">Rachel Andrew</a></h2>
+							<p class="info">3 days ago by <a href="#">Daganaud Alex</a></p>
+						</header>
+						<p>A l'honneur ce mois-ci Rachel Andrew. Rachel Andrew est une développeur Web britannique, auteur et conférencière connue pour son expertise en HTML, CSS, JavaScript et PHP. Elle est une experte invitée du groupe de travail CSS créé par le World Wide Web Consortium. Andrew est également expert développeur Google et ancien membre du Web Standards Project.</p>
+						<ul class="actions">
+							<li><a href="generic.html" class="button alt">Lire plus</a></li>
+						</ul>
+					</div>
+					<div class="postnav">
+						<a href="#" class="prev disabled"><span class="icon fa-chevron-up"></span></a>
+						<a href="#two" class="scrolly next"><span class="icon fa-chevron-down"></span></a>
+					</div>
+				</div>
+			</article>
+
+		<!-- Two -->
+			<article id="two" class="post invert style1 alt">
+				<div class="image">
+					<img src="images/pic13.jpg" alt="" data-position="10% center" />
+				</div>
+				<div class="content">
+					<div class="inner">
+						<header>
+							<h2><a href="generic.html">Personnalités</a></h2>
+							<p class="info">10 days ago by <a href="#">Daganaud Alex</a></p>
+						</header>
+						<p>Liste des différentes personnalités présentées sur le site.</p>
+						<ul class="actions">
+							<li><a href="generic.html" class="button alt">Lire plus</a></li>
+						</ul>
+					</div>
+					<div class="postnav">
+						<a href="#one" class="scrolly prev"><span class="icon fa-chevron-up"></span></a>
+						<a href="#three" class="scrolly next"><span class="icon fa-chevron-down"></span></a>
+					</div>
+				</div>
+			</article>
+
+		<!-- Three -->
+			<article id="three" class="post style2">
+				<div class="image">
+					<img src="images/pic14.jpg" alt="" data-position="80% center" />
+				</div>
+				<div class="content">
+					<div class="inner">
+						<header>
+							<h2><a href="generic.html">Mentions légales</a></h2>
+							<p class="info">17 day ago <a href="#">Daganaud Alex</a></p>
+						</header>
+						<p>Pour apprendre plus en détail comment à été conçu le site.</p>
+						<ul class="actions">
+							<li><a href="generic.html" class="button alt">Lire plus</a></li>
+						</ul>
+					</div>
+					<div class="postnav">
+						<a href="#two" class="scrolly prev"><span class="icon fa-chevron-up"></span></a>
+						<a href="#four" class="scrolly next"><span class="icon fa-chevron-down"></span></a>
+					</div>
+				</div>
+			</article>
+
+
+
+		<!-- Footer -->
+			<footer id="footer">
+				<ul class="icons">
+					<li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
+					<li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
+					<li><a href="#" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
+				</ul>
+				<div class="copyright">
+					&copy; Daganaud Alex: <a href="https://templated.co">Mentions légales</a>
+				</div>
+			</footer>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
 </html>
